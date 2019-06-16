@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 1 Summary</title>
+</head>
+
+<body>
+	<h1>Week 1 Summary</h1>
+	<p>Course Name: 
+		<b><a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/d5lAy/lecture-1-what-is-html">HTML, CSS, and Javascript for Web Developers </a></b>
+		<i>
+			by <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/d5lAy/lecture-1-what-is-html">Prof. Yaakov Chaikin</a>
+		from John Hopkins University</i>
+	</p>
+
+	<p>Please find full course materials on their 
+		<b><a href="https://github.com/jhu-ep-coursera/fullstack-course4">GitHub</a></b>
+
+		<div id="module"> 
+			Module 1 slides: 
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture01-WhatIsHTML.pdf">Lecture 1;  </a>
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture02-HistoryOfHTML.pdf">Lecture 2;  </a>	
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture03-AnatomyOfATag.pdf">Lecture 3;  </a>
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture04-BasicDocumentStructure.pdf">Lecture 4;  </a>
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture05-ContentModelsDivSpan.pdf">Lecture 5;  
+			</a>
+	</div> 
+
+	<div id="module"> Module 2 slides:
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture06-HeadingsAndSomeSemanticElements.pdf">Lecture 6;  </a>
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture07-Lists.pdf">Lecture 7;  </a>	
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture08-HTMLEntities.pdf">Lecture 8;  </a>
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture09-Links.pdf">Lecture 9;  </a>
+			<a href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/Lecture-Slides/Lecture10-Images.pdf">Lecture 10;  
+			</a>
+	 
+	</div> 
+
+
+
+	</p>
+
+	<br> 
+
+
+<!--Start of summary-->
+	<h2>Module 1: HTML Basics</h2>
+
+	<h3>
+		<div id="question"><i> What does HTML stand for?</i></div>
+	</h3>
+	<p>
+		<div id="answer">
+			 = <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage
+
+			<ul>
+				<li>Hypertext: texts contain links</li>
+				<li>Markup: to annotate using "tags" </li>
+				<li>Language: syntax matter; browser reads it </li>
+			</ul>
+		</div>
+
+	</p>
+
+	<h3>
+		<div id="question">
+			<i>  What does HTML do?</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			<ul>
+				<li>Define document structures</li>
+				<li>Annotation hypertext content</li>
+			</ul>
+		</div>
+	</p>
+
+	<h3>
+		<div id="question">
+			<i>  What are the three pillars of web technologies?</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			<ul>
+				<li>HTML: structure design</li>
+				<li>CSS: visual styling</li>
+				<li>Javascript: flow of control</li>
+			</ul>
+		</div>
+	</p>
+
+	<h3>
+		<div id="question">
+			<i>  What are the two organizations making HTML standards?</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			<ul>
+				<li><b>W3C</b>: World Wide Web Consortium</li>
+				<li><b>WHATWG</b>: Web Hypertext Application Technology Working Group</li>
+			</ul>
+		</div>
+		<div id="notes">*W3C updates versions of HTML while WHATWG does not;  W3C also provides a 
+			<a href="https://validator.w3.org/">syntax validator</a>
+		</div>
+	</p>
+
+
+	<h3>
+		<div id="question">
+			<i> What's the anatomy of an HTML tag?</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			OPENING TAG + contents + CLOSING TAG  
+		</div>
+		e.g. < p > Hello World < /p > 
+
+	</p>
+
+
+	<h3>
+		<div id="question">
+			<i>  Key features of HTML tags:</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			<ul>
+				<li>All HTML5 tags must have an opening tag</li>
+				<li>Some don't have closing tags, e.g. < br > which adds a blank line on your webpage</li>
+				<li>A tag has attributes, e.g. < p id="haha"> , where id is the attribute name AND "haha is the attribute value. </li>
+				<li>HTML doesn't differentiate single vs double quotation: id="haha" or id='haha' </li>
+				<li>Order of closing matters! = the opposite order of opening tags</li>
+			</ul>
+			
+		</div>
+	</p>
+
+	<h3>
+		<div id="question">
+			<i> What's a page declaration? </i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			< !DOCTYPE html >
+		</div>
+		<div id="notes">*The declaration is NOT an HTML tag; it tells the web browser about what version of HTML the page is written in (e.g. HTML5). 
+		</div>	
+	</p>
+
+	<h3>
+		<div id="question">
+			<i> What's the Quirks mode? </i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			If you missed the page declaration, the browser will interpret your HTML in Quirks mode as the browser assume that this webpage will not follow the HTML standard, e.g. styles won't work correctly etc.
+		</div>
+	</p>
+
+
+	<h3>
+		<div id="question">
+			<i> What's a minimal version of HTML script?</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			< html > - < meta > - < head > - < title > - < body >
+		</div>
+	</p>
+
+
+	<h3>
+		<div id="question">
+			<i> What's a meta tag?</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			Meta tags communication <b>Webpage</b> info to the <b>browser</b>, not the server.
+			A meta tag is between < head > and < title > tells search engine core features of your webpage, e.g. < meta charset="utf-8">. A well-written meta tage can attract more click-throughs from a search engine result!
+		</div>
+	</p>
+
+	<h3>
+		<div id="question">
+			<i> How does a browser interpret an HTML script?</i>
+		</div>
+	</h3>
+	<p>
+		<div id="answer">
+			A browser will ALWAYS interpret HTML sequentially, top to bottom
+		</div>
+	</p>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
